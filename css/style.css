@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #D6EFD8;
+  }
+  .container{
+    border: 1px solid #4CAF50 ;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 40px 0px;
+    background-color: #80AF81;
+    box-shadow: 0px 2px 4px;
+  }
+  .section{
+    width: 400px;
+    margin: 40px auto;
+    border: 1px solid #D6EFD8;
+    padding: 20px;
+    background-color: #D6EFD8;
+    border-radius: 8px ;
+    box-shadow: 0px 2px 4px;
+  }
+  .header {
+    color: black;
+    padding: 10px 10px 0px 0px;
+  }
+  .sub-header {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+  }
+  .add-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #D6EFD8;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  .add-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .add-section button {
+    padding: 10px 20px;
+    background-color: #37B7C3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .list {
+    padding: 10px;
+    margin: 10px;
+  }
+  .list li {
+    padding: 10px;
+    background-color: #fff;
+    background-color: #D6EFD8;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #D6EFD8;
+  }
+  .btn1 {
+    padding: 10px 20px;
+    background-color: #37B7C3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn2 {
+    padding: 10px 20px;
+    background-color: #C80036;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn3 {
+    padding: 10px 20px;
+    background-color: #80AF81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .item3{
+    text-decoration: line-through;
+  }
+  .btn1:hover,.btn2:hover{
+    background-color: #80AF81;
+  }
+  .btn3:hover{
+    background-color: #1A5319;
+  }
